@@ -1,0 +1,5 @@
+#ask user for fullname not in snake case
+fullname = input("Enter your fullname: ")
+
+#print user fullname in snake case
+print('_'.join(word.lower() for word in fullname.split()))
